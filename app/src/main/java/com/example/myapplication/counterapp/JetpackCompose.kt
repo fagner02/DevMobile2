@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.counterapp
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -27,7 +27,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
-import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.example.myapplication.menuapp.ui.theme.MyApplicationTheme
 
 class JetpackCompose : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

@@ -31,7 +31,7 @@ import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
 import androidx.navigation.navArgument
-import com.example.myapplication.ui.theme.MyApplicationTheme
+import com.example.myapplication.menuapp.ui.theme.MyApplicationTheme
 
 class Animal : ComponentActivity() {
     @OptIn(ExperimentalMaterial3Api::class)

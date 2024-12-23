@@ -1,4 +1,4 @@
-package com.example.myapplication
+package com.example.myapplication.profileapp
 
 import android.R.attr.value
 import android.content.Intent
@@ -12,6 +12,8 @@ import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
+import com.example.myapplication.menuapp.MainActivity
+import com.example.myapplication.R
 
 class ProfileActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

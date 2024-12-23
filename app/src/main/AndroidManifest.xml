@@ -44,15 +44,15 @@
             android:label="@string/title_activity_animal"
             android:theme="@style/Theme.MyApplication" />
         <activity
-            android:name=".JetpackCompose"
+            android:name=".counterapp.JetpackCompose"
             android:exported="false"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.MyApplication" />
         <activity
-            android:name=".ProfileActivity"
+            android:name=".profileapp.ProfileActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".menuapp.MainActivity"
             android:exported="false" />
     </application>
 
