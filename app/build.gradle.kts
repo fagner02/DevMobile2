@@ -89,6 +89,8 @@ dependencies {
     implementation(libs.androidx.material.icons.core)
     implementation(libs.material.icons.extended)
     implementation (libs.androidx.datastore.preferences)
+    implementation(libs.androidx.room.common)
+    implementation(libs.androidx.room.ktx)
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
