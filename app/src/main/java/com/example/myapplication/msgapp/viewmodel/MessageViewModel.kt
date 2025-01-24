@@ -19,5 +19,12 @@ class MessageViewModel(private val repository: MessageRepository): ViewModel() {
         }
     }
 
+    fun addMessage(content: String) {
+        viewModelScope.launch {
+            val newMessage = Message(content = content, timestamp = System.currentTimeMillis())
+            _messages.value += newMessage
+            repository.addMessage(content)
+        }
+    }
 
 }

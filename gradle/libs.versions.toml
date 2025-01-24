@@ -30,9 +30,15 @@ media3Exoplayer = "1.5.1"
 media3Ui = "1.5.1"
 transportApi = "4.0.0"
 roomCommon = "2.6.1"
+hiltAndroid = "2.51.1"
 roomKtx = "2.6.1"
+roomCompiler = "2.6.1"
+roomRuntime = "2.6.1"
 
 [libraries]
+hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
+androidx-room-compiler = {module="androidx.room:room-compiler", version.ref = "roomCompiler"}
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
 accompanist-systemuicontroller = { module = "com.google.accompanist:accompanist-systemuicontroller", version.ref = "accompanistSystemuicontroller" }
 androidx-core-splashscreen = { module = "androidx.core:core-splashscreen", version.ref = "coreSplashscreen" }
 androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
