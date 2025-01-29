@@ -4,6 +4,7 @@ coilNetworkOkhttp = "3.0.4"
 coilCompose = "3.0.4"
 coreSplashscreen = "1.0.1"
 datastorePreferences = "1.1.1"
+firebaseBom = "33.8.0"
 gson = "2.11.0"
 ktor-client = "2.3.6" #latest version of Ktor
 agp = "8.6.1"
@@ -34,8 +35,12 @@ hiltAndroid = "2.51.1"
 roomKtx = "2.6.1"
 roomCompiler = "2.6.1"
 roomRuntime = "2.6.1"
+playServices = "12.0.1"
 
 [libraries]
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
 hilt-android = { module = "com.google.dagger:hilt-android", version.ref = "hiltAndroid" }
 androidx-room-compiler = {module="androidx.room:room-compiler", version.ref = "roomCompiler"}
 androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
@@ -81,6 +86,7 @@ translate = { module = "com.google.mlkit:translate", version.ref = "translate" }
 transport-api = { group = "com.google.android.datatransport", name = "transport-api", version.ref = "transportApi" }
 androidx-room-common = { group = "androidx.room", name = "room-common", version.ref = "roomCommon" }
 androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+play-services = { group = "com.google.android.gms", name = "play-services", version.ref = "playServices" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }

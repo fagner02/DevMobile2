@@ -7,6 +7,7 @@ pluginManagement {
                 includeGroupByRegex("androidx.*")
             }
         }
+        google()
         mavenCentral()
         maven(url = "https://jitpack.io")
         gradlePluginPortal()
